@@ -307,7 +307,7 @@ body {
   # Sections General
   --------------------------------------------------------------*/
   section {
-    padding: 60px 0;
+    padding: 0;
     overflow: hidden;
   }
   
@@ -365,35 +365,63 @@ body {
   # isi
   --------------------------------------------------------------*/
   #isi {
-  height: 80vh;
   background: rgb(255, 255, 255);
-  padding-top: 200px;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 0;
+  }
+  
+  .isi .row {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  .isi .content h3 {
-    font-weight: 700;
-    font-size: 32px;
-    color: #5f687b;
+  .isi .garis{
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 2px solid grey;
+
   }
-  
-  .isi .content ul {
-    list-style: none;
-    padding: 0;
+  .isi li {
+    padding-left: 20px;
+    padding-right: 40px;
   }
-  
-  .isi .content ul li {
-    padding-bottom: 10px;
+
+  .isi .judul{
+    margin-bottom: 20px;
   }
-  
-  .isi .content ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: #16df7e;
+
+  .isi .card{
+    font-family: monospace;
+    font-size: 14px;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
   }
-  
-  .isi .content p:last-child {
-    margin-bottom: 0;
+
+  .isi .cm{
+    color: rgb(106, 153, 85);
+  }
+
+  .isi .hj{
+    color: rgb(78, 201, 176);
+  }
+
+  .isi .bt{
+    color: rgb(86, 156, 214);
+  }
+
+  .isi .bm{
+    color: rgb(156, 220, 254);
+  }
+
+  .isi .kn{
+    color: rgb(220, 220, 170);
+  }
+
+  .isi .co{
+    color: rgb(206, 145, 120);
   }
   
   /*--------------------------------------------------------------
