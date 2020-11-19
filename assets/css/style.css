@@ -775,7 +775,6 @@ section {
 
 .team .member span {
   font-style: italic;
-  display: block;
   font-size: 13px;
 }
 
@@ -802,6 +801,32 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+}
+
+.quotes .cm{
+    color: rgb(106, 153, 85);
+  }
+
+.quotes .hj{
+    color: rgb(78, 201, 176);
+}
+
+.quotes .bt{
+    color: rgb(86, 156, 214);
+}
+
+.quotes .bm{
+    color: rgb(156, 220, 254);
+}
+
+.quotes .kn{
+    color: rgb(220, 220, 170);
+}
+
+.quotes .co{
+    color: rgb(206, 145, 120);
 }
 
 /*--------------------------------------------------------------
